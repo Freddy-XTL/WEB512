@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-container {
+    background-image: url(Pictures_SPLP/pexels-pixabay-159490.jpg);
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: Left;
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+    margin: 250px auto;
+    background-color: white;
+    color: black;
+}
+
+.username input {
+    width: 450px;
+    height: 20px;
+}
+
+.password input {
+    width: 450px;
+    height: 20px;
+}
+.submit-button {
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.submit-button input {
+    width: 450px;
+    background-color: red;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form {
+    position: absolute;
+    margin: 50px 0px 250px 5px;
+   
+}
+
+legend {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+legend .ctu-logo {
+    display: inline-block;
+    margin: 0 auto;
+}
+legend img {
+    max-width: 250px; /* keep it fitting inside */
+    height: auto;
+}
+
+
+fieldset {
+    width: 450px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: beige;
+}
+
+p {
+    text-align: center;
+    padding: 330px 0;
+}
