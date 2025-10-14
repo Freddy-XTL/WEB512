@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cream's Car Rental Co</title>
+  <link rel="stylesheet" href="CarRentalstyle.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <img src="Car logo/—Pngtree—sport car logo vector_6398339.png" alt="Car-logo">
+        <h1>Cream's Car Rental Co</h1>
+    </header>
+
+    <main>
+        <p class="info">
+            Dear customer, welcome to Cream's Car Rental Co. To rent a car from us, simply fill in the form <br>
+            below. Please note that all fields marked with an asterisk (<span>*</span>) are mandatory fields!
+        </p>
+        <br>
+
+        <form action="">
+        <fieldset >
+            <legend>Vehicle Rental Details</legend>
+                <label for="email">Email Address <span>*</span></label>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+                <label for="VRS">Vehicle Rental Selection<span>*</span></label>
+                <select name="VRS" id="VRS">
+                    <option value="volvo">Select One</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="Start City">From (Start From City) <span>*</span></label>
+                <input type="text" id="text" name="text" required>
+                <br>
+                <br>
+
+                <label for="Destination City">To (Destination City) <span>*</span></label>
+                <input type="text" id="text" name="text" required>
+                <br>
+                <br>
+
+                <label for="Date of Pickup">Date of Pickup <span>*</span></label>
+                    <select>
+                        <option>Select a day</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                        <option>Sunday</option>
+                    </select>
+                    <select>
+                        <option>Select a month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select>
+                        <option>Select a year</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="Date of Return">Date of Return <span>*</span></label>
+                    <select>
+                        <option>Select a day</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                        <option>Sunday</option>
+                    </select>
+                    <select>
+                        <option>Select a month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select>
+                        <option>Select a year</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="Return Time">Return Time (HH:MM:SS) <span>*</span></label>
+                <input type="text" id="text" name="text" required>
+            </fieldset>
+            <br>
+            <br>
+
+            <fieldset>
+            <legend>Driver Requirement</legend>
+                <p class="info">
+                    Please indicate whether you require a driver by simply <br>
+                    making a selection from the options below <span>*</span>
+                </p>
+
+                    <input type="radio" id="Driver" name="Driver" value="Yes Driver Required">
+                    <label for="Driver">Yes Driver Required</label><br>
+                    <input type="radio" id="Driver" name="Driver" value="No Driver Required">
+                    <label for="Driver">No Driver Required</label><br>
+
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">Insurance</label><br>
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">None</label><br>
+
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">Collision Damage Waiver</label><br>
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">Liability Insurance</label><br>
+
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">Personal Accident Insurance</label><br>
+                    <input type="radio" id="Insurance" name="Insurance" value="Insurance">
+                    <label for="Insurance">Personal Effects Coverage</label><br>
+            </fieldset>
+        <br>
+        <br>
+
+            <fieldset>
+            <legend>Billing Information</legend>
+                <label for="firstname">First Name <span>*</span></label>
+                <input type="text" name="firstname" id="firstname" required>
+                <br>
+                <br>
+                <label for="Middle Inital">Middle Name</label>
+                <input type="text" name="Middle Initial" id="Middle Initial">
+                <br>
+                <br>
+
+                <label for="Last Name">Last Name <span>*</span></label>
+                <input type="text" name="Last Name" id="Last Name" required>
+                <br>
+                <br>
+
+                <label for="Address Line 1">Address Line 1 <span>*</span></label>
+                <input type="text" name="Address Line 1" id="Address Line 1" required>
+                <br>
+                <br>
+
+                <label for="City">City <span>*</span></label>
+                <input type="text" name="City" id="City" required>
+                <br>
+                <br>
+
+                <label for="Zip Code">Zip Code <span>*</span></label>
+                <input type="number" name="Zip Code" id="Zip Code" required>
+                <br>
+                <br>
+
+                <label for="Telephone">Telephone <span>*</span></label>
+                <input type="tel" name="Telephone" id="Telephone" placeholder="+27 82 123 4567" pattern="^\+27\s\d{2}\s\d{3}\s\d{4}$" required>
+            </fieldset>
+            <br>
+            <br>
+
+            <fieldset>
+            <legend>Credit/Debit Card Information</legend>
+                <label for="Card Number">Card Number <span>*</span></label>
+                <input type="number" name="Card Number" id="Card Number" required>
+                <br>
+                <br>
+
+                <label for="Expiry Month">Expiry Month <span>*</span></label>
+                <select required>
+                        <option>Select a month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                <br>
+                <br>
+
+                <label for="Expiry Year">Expiry Year <span>*</span></label>
+                <select required>
+                        <option>Select a year</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                    </select>
+                <br>
+                <br>
+
+                <label for="Card Brand">Card Brand <span>*</span></label>
+                <input type="text" name="Card Brand" id="Card Brand" required>
+                <br>
+                <br>
+            </fieldset>
+
+            <div  class="submit-button">
+                <input type="submit" value="Submit Form">
+            </div>
+        </form>
+    
+    </main>
+    
+    <footer>
+      &copy; 2025 Cream's Car Rental Co. All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
