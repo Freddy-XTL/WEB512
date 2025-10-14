@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form website</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+    <h1>My Form</h1>
+    <form>
+        <fieldset>
+            <label for="name">Name</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label for="surname">Surname</label><br>
+            <input type="text" name="surname"><br><br>
+            
+            <label for="age">Age</label><br>
+            <input type="number" name="age"><br><br>
+            
+            <label for="birthdate">Birth Date</label><br>
+            <input type="date" name="birthdate"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label for="phonenumber">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" pattern="^\+27\s\d{2}\s\d{3}\s\d{4}$">
+<br><br>
+
+            <label for="bio">Bio</label><br>
+            <textarea name="bio"></textarea><br><br>
+
+            <p>Select your 3 favorite music types:</p>
+
+                <label>
+                    <input type="checkbox" name="music" value="rock">
+                    Rock
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="music" value="hiphop">
+                    Hip-Hop
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="music" value="jazz">
+                    Jazz
+                </label><br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

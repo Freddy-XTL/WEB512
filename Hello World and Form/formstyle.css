@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://getwallpapers.com/wallpaper/full/1/4/5/1007076-relaxing-background-pictures-2048x1365-for-windows-10.jpg");
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(11, 0, 111);
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: aquamarine;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+}
