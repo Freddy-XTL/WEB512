@@ -8,7 +8,7 @@ body {
 .background-container {
     position: relative;
     min-height: 100vh;
-    background-image: url("/Student-portal project/background-images/pexels-pixabay-207700.jpg");
+    background-image: url("/background-images/pexels-pixabay-207700.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
