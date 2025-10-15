@@ -7,7 +7,7 @@ body {
 .background-container {
     position: relative;
     min-height: 100vh;
-    background-image: url("/Student-portal project/background-images/young-woman-writing-her-journal.jpg");
+    background-image: url("/background-images/young-woman-writing-her-journal.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
