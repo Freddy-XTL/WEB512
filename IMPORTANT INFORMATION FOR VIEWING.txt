@@ -1,0 +1,15 @@
+If you want to view a website from the options in this repository then you have to clone this repository into your local device. Here are the steps to view my different website operations.
+
+1. After cloning go to your file explorer where you placed the folder
+
+2. Go into one of the folders of your choosing
+
+3. Go into your file path and type cmd
+
+4. After opening command prompt, type code .
+
+5. When in your Visual Studio Code, open one of the html files and open with your live server.
+
+This only works with one folder and not all of them at once! If you want to view in a different website from another folder then you have to do the exact same steps just in that folder you desire.
+
+Enjoy viewing!
