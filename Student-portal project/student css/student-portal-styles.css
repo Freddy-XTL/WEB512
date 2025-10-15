@@ -7,7 +7,7 @@ body {
 .background-container {
     position: relative;
     min-height: 100vh;
-    background-image: url("/Student-portal project/background-images/wallpaperflare.com_wallpaper.jpg");
+    background-image: url("/background-images/wallpaperflare.com_wallpaper.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
